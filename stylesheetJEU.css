@@ -1,3 +1,12 @@
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('LearningCurve_OT-webfont.eot');
+    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurve_OT-webfont.woff') format('woff'),
+         url('LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
 body {
 	background-color: #99E4E4 ;	
 
@@ -12,7 +21,7 @@ div {
 	position: fixed;
 	width: 97.5%;
 	margin-top: -20px;
-	height: 60px;
+	height: 80px;
 	background-color: #D2D742;
 	margin-bottom: 10px;
 }
@@ -21,8 +30,8 @@ div {
 	float:left;
 	margin-left: 5px;
 	padding-top: 5px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
+	font-size: 2em;
+	font-family: 'LearningCurveProRegular', Verdana, sans-serif;
 	color: blue;
 }
 
@@ -30,7 +39,7 @@ div {
 	float:right;
 	margin-right: 5px;
 	padding-top: 50px;
-	font-size: 16px;
+	font-size: 1.2em;
 	font-family: Verdana, sans-serif;
 	color: blue;
 }
@@ -83,7 +92,7 @@ a:hover {
 	background-color: #668284;
 	clear: both;
 	font-family: Verdana, sans-serif;
-	font-size: 14px;
+	font-size: 1em;
 	text-align: center;
 	color: #ffffff;
 }
@@ -98,9 +107,10 @@ a:hover {
 	padding-top: 25px;
 }
 
-#plogo {
+figure {
 	text-align: center;
 }
+
 
 #simple {
 	width: 250px;
